@@ -7,3 +7,15 @@ function task1()
     },0);
     alert(summa);
 }
+
+function task2()
+{
+    //Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
+    let arr = Array.from(Array(10),()=>{return Math.round(Math.random()*20)});
+    console.log(arr.toString());
+    
+    //Выбираем в массиа newArr все элементы массива, которые удовлетворяют условию >0 && <10
+    let newArr=arr.filter(elem=>elem>0 && elem<10);
+    newArr=newArr.reduce((sum,elem)=>sum+elem,0);
+    console.log(sum);
+}
