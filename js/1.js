@@ -7,3 +7,13 @@ function task1()
     },0);
     alert(summa);
 }
+
+function task6()
+{
+    //Написать функцию, которая принимает массив чисел и переносит первый элемент массива в конец.
+    let arr = Array.from(Array(10),()=>{return Math.round(Math.random()*20)});
+    console.log(arr.toString());
+    let elem=arr.shift();
+    arr.push(elem);
+    console.log(arr.toString()); 
+}
