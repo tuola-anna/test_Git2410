@@ -8,7 +8,7 @@ function task1()
     alert(summa);
 }
 
-<<<<<<< HEAD
+
 function task2()
 {
     //Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
@@ -19,7 +19,7 @@ function task2()
     let newArr=arr.filter(elem=>elem>0 && elem<10);
     newArr=newArr.reduce((sum,elem)=>sum+elem,0);
     console.log(sum);
-=======
+}
 function task6()
 {
     //Написать функцию, которая принимает массив чисел и переносит первый элемент массива в конец.
@@ -27,6 +27,5 @@ function task6()
     console.log(arr.toString());
     let elem=arr.shift();
     arr.push(elem);
-    console.log(arr.toString()); 
->>>>>>> 46c68c16ec912952d7c9800fd8ff9bf2a0cb2470
+    console.log(arr.toString());
 }
